@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: black; }
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+pre {
+  cursor: default;
+  color: white;
+  margin: 0; }
+  pre span {
+    margin: 5px 0;
+    display: inline-block; }
+  pre .descr {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.8); }
+
+a {
+  color: white;
+  text-decoration: none; }

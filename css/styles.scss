@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+pre {
+    cursor: default;
+    color: white;
+    margin: 0;
+    span{
+        margin: 5px 0;
+        display: inline-block;
+    }
+    .descr{
+        font-size: 0.7rem;
+        color: rgba(255,255,255,0.8);
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
