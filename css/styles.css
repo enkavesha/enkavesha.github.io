@@ -1,20 +1,89 @@
 body {
   margin: 0;
-  background: black; }
+  background: black;
+  font-family: 'Inconsolata', monospace; }
 
-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.card {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  max-width: 204px; }
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative; }
+
+.avatar__img {
+  height: 100%;
+  display: inline-block; }
+
+.avatar__social {
+  position: absolute;
+  right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
+
+.avatar__top-link {
+  margin: 0 0 5px; }
+
+.border {
+  border: 2px solid #fff;
+  margin: 0 0 10px; }
+
+.option {
+  color: white;
+  cursor: default;
+  font-size: 14px; }
+
+.option__half {
+  width: 45%; }
+
+.option__padding {
+  padding: 2px 10px; }
+
+.option-ext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+
+.option-ext__part {
+  width: 100%;
+  padding: 2px 0; }
+
+.option-ext__part_inverted {
+  color: #000;
+  background: #fff;
+  font-weight: bold;
+  padding: 2px 10px;
+  width: auto; }
+
+.option-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 pre {
   cursor: default;
@@ -26,6 +95,10 @@ pre {
   pre .descr {
     font-size: 0.7rem;
     color: rgba(255, 255, 255, 0.8); }
+
+.title {
+  margin: 0;
+  font-size: 1.1rem; }
 
 a {
   color: white;
