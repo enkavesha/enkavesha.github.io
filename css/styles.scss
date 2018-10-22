@@ -30,7 +30,7 @@ body {
     top: 50%;
     transform: translate(0,-50%);
 }
-.avatar__top-link{
+.avatar__link{
     margin: 0 0 5px;
 }
 .border {
@@ -40,7 +40,6 @@ body {
 
 .option{
     color: white;
-//    white-space: pre;
     cursor: default;
     font-size: 14px;
 }

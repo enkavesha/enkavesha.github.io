@@ -37,9 +37,6 @@ body {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%); }
 
-.avatar__top-link {
-  margin: 0 0 5px; }
-
 .border {
   border: 2px solid #fff;
   margin: 0 0 10px; }
