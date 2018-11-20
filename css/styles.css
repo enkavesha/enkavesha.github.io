@@ -65,16 +65,37 @@ body {
   display: flex;
   justify-content: space-between; }
 
+.button {
+  font-size: 14px;
+  text-align: center; }
+
+.button_link {
+  color: black;
+  background: white;
+  font-weight: bold;
+  display: block;
+  padding: 2px 0;
+  border: 2px solid white; }
+  .button_link:active, .button_link:focus, .button_link:hover {
+    background: black;
+    color: white; }
+
 pre {
   cursor: default;
   color: white;
   margin: 0; }
-  pre span {
-    margin: 5px 0;
-    display: inline-block; }
-  pre .descr {
-    font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.8); }
+
+.item,
+.descr {
+  display: inline-block; }
+
+.item {
+  margin: 15px 0 5px; }
+
+.descr {
+  margin: 5px 0;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.8); }
 
 .title {
   margin: 0;
